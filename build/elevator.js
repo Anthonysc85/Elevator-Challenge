@@ -68,8 +68,7 @@ var ElevatorControl = (function() {
        }
        
         if (ctrl.currentIndex == ctrl.queue[0]) { 
-            ctrl.elevator.motion = 0;
-            
+            ctrl.elevator.motion = 0;     
             ctrl.queue.shift();
             ctrl.queue.splice(0, 1);
             fireEvent(ctrl, "arrived");
