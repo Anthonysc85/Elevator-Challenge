@@ -2,6 +2,8 @@
 
 Virtual elevator algorithm build with Javascript, Tailwind CSS, and HTML.
 
+Live: https://anthonysc85.github.io/Elevator-Challenge/
+
 1. Ability to select floor 1 to 10 on a keypad.
 2. There is a representation of an elevator and a building with 10 floors. This can be as simple as 10 blocks stacked on top of each other for the floors and a different colored block that represents the elevator.
 3. A current floor display shows what floor the elevator is currently on.
